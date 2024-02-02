@@ -1,9 +1,12 @@
 .flexbox {
     background-color: #0000007e;
-    padding: 15px 50px;
     border-radius: 10px;
-    width: fit-content;
-
+    width: 400px;
+    height: 345px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
 }
 .name{
     font-family: "Josefin Sans", sans-serif;
@@ -18,13 +21,23 @@ body{
 }
 .flex{
     width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10vw;
+    box-sizing: border-box;
+}
+.flexing{
+    width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 15vw;
+
+
 }
-.box{
+.textbox{
+    padding: 30px 40px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -61,5 +74,32 @@ body{
 }
 .linkedin:hover{
     background-color: #95b9d6;
+
+}
+.img{
+    border-radius: 40px;
+    border: 3px solid rgba(214, 212, 212, 0.459);
+}
+.imgbox{
+   width: 100%;
+   height: 180px;
+   background-image: url("img/1706835111293.jpg");
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+   background-position: center;
+   background-size: cover;
+}
+.xbox{
+    width: 140px;
+    height: 140px;
+    background-image: url("img/f.gif");
+    border-radius: 999px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    top: 70px;
+    left: 40px;
+    border: 2px solid rgb(49, 49, 49);
+
 
 }
