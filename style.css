@@ -1,0 +1,65 @@
+.flexbox {
+    background-color: #0000007e;
+    padding: 15px 50px;
+    border-radius: 10px;
+    width: fit-content;
+
+}
+.name{
+    font-family: "Josefin Sans", sans-serif;
+    color: aliceblue;
+
+
+
+}
+body{
+    background-image: linear-gradient(to bottom right,#95b9d6,#547fa1,#18476d);
+
+}
+.flex{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15vw;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+.flex-social{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 5px;
+
+
+}
+.social{
+    width: 20px;
+    height: 20px;
+    border-radius: 999px;
+    background-color: #0000007e;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.discord:hover{
+    background-color: #18476d;
+
+}
+.mail:hover{
+    background-color: darkgreen;
+
+}
+.linkedin:hover{
+    background-color: #95b9d6;
+
+}
